@@ -70,7 +70,7 @@ void MainWindow::checkGameOver() {
 
 void MainWindow::on_btnVillage_clicked()
 {
-    setBackground("images/village.jpg");
+    setBackground("E:/27-04-2025/UZZAM WORK/Summer Activity/Activity 6 qt/AdventureGameQt/images/village.jpg");
     ui->labelStatus->setText("You are in the Village.");
     logEvent("Village", "Visited");
 }
@@ -78,7 +78,7 @@ void MainWindow::on_btnVillage_clicked()
 
 void MainWindow::on_btnTavern_clicked()
 {
-    setBackground("images/tavern.jpg");
+    setBackground("E:/27-04-2025/UZZAM WORK/Summer Activity/Activity 6 qt/AdventureGameQt/images/tavern.jpg");
     QString msg;
     int cost = rand() % 2 == 0 ? 0 : 10;
 
@@ -101,7 +101,7 @@ void MainWindow::on_btnTavern_clicked()
 
 void MainWindow::on_btnForest_clicked()
 {
-    setBackground("images/forest.jpg");
+    setBackground("E:/27-04-2025/UZZAM WORK/Summer Activity/Activity 6 qt/AdventureGameQt/images/forest.jpg");
     int result = rand() % 2;
     QString msg;
     if (result == 0) {
@@ -121,7 +121,7 @@ void MainWindow::on_btnForest_clicked()
 
 void MainWindow::on_btnMountains_clicked()
 {
-    setBackground("images/mountains.jpg");
+    setBackground("E:/27-04-2025/UZZAM WORK/Summer Activity/Activity 6 qt/AdventureGameQt/images/mountains.jpg");
     int result = rand() % 2;
     QString msg;
     if (result == 0) {
@@ -141,7 +141,7 @@ void MainWindow::on_btnMountains_clicked()
 
 void MainWindow::on_btnTreasure_clicked()
 {
-    setBackground("images/treasure.jpg");
+    setBackground("E:/27-04-2025/UZZAM WORK/Summer Activity/Activity 6 qt/AdventureGameQt/images/treasure.jpg");
     QString msg;
     if (player.checkWinCondition()) {
         msg = "You Win!";
