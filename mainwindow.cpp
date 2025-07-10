@@ -11,7 +11,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    ui->logArea->setStyleSheet("color: white; background-color: rgba(0, 0, 0, 150); font-family: Consolas;");
+    // ui->logArea->setStyleSheet("color: white; background-color: rgba(0, 0, 0, 150); font-family: Consolas;");
     srand(time(0));
     ui->logArea->setReadOnly(true);
     updateStats();
