@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>614</width>
+    <height>557</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="labelStatus">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>20</y>
+      <width>541</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>20</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 200);
+color: black;
+font-weight: bold;
+
+</string>
+    </property>
+    <property name="text">
+     <string>WELCOME TO THE ADVENTURE GAME</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelStats">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>120</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>16</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 200);
+color: black;
+font-weight: bold;
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="logArea">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>190</y>
+      <width>211</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnVillage">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>440</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+&quot;background-color: rgba(255, 255, 255, 200); color: black;&quot;
+};
+</string>
+    </property>
+    <property name="text">
+     <string>Go to Village</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnTavern">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>440</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+&quot;background-color: rgba(255, 255, 255, 200); color: black;&quot;
+};
+</string>
+    </property>
+    <property name="text">
+     <string>Go to Tavern</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnForest">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>440</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+&quot;background-color: rgba(255, 255, 255, 200); color: black;&quot;
+};
+</string>
+    </property>
+    <property name="text">
+     <string>Go to Forest</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnMountains">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>440</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+&quot;background-color: rgba(255, 255, 255, 200); color: black;&quot;
+};
+</string>
+    </property>
+    <property name="text">
+     <string>Go to Mountains</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnTreasure">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>480</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+&quot;background-color: rgba(255, 255, 255, 200); color: black;&quot;
+};
+</string>
+    </property>
+    <property name="text">
+     <string>Go to Treasure Room</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>614</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
